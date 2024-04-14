@@ -106,7 +106,7 @@ detected. That said, if you don't touch the FindItFaster terminal, things should
 ### **NixOS**:
 
 The bash scripts use a shebang that conflicts with NixOs: `#!/bin/bash` , as bash isn't 
-available in `/bin`, a work around is to this to follow the instructions in [Issue #44](https://github.com/tomrijndorp/vscode-finditfaster/issues/44) 
+available in `/bin`, a work around to this is to follow the instructions in [Issue #44](https://github.com/tomrijndorp/vscode-finditfaster/issues/44) 
 and change the shebangs manually, after this, the extention should work normally.
 
 <hr />
